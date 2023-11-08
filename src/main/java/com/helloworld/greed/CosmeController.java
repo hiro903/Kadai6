@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class CosmeController {
 
-    @GetMapping("/cosme")
+    @GetMapping("/cosmes")
     public List<Supplement> getcosme() {
         return List.of(
                 new Supplement("VitaminC", "美白",

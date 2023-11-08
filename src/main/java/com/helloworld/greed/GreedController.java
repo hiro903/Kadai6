@@ -8,6 +8,6 @@ public class GreedController {
     @GetMapping("/greed")
     public String greed() {
 
-        return "Hello World";
+        return "Hello Worldaaa";
     }
 }
